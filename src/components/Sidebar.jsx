@@ -11,7 +11,7 @@ import { FiPlus } from "react-icons/fi";
 const Sidebar = () => {
   return (
     <div className="pb-10">
-      <div className="bg-slate-50 pr-3 pl-2 border-r-2 border-gray-300 pb-7 pt-9">
+      <div className="bg-slate-50 pr-3 pl-2 border-r-2 border-gray-300 pb-7 pt-5">
         <div className="space-y-2 pl-2">
           <div className="flex items-center w-full justify-between">
             <div className="flex items-center gap-3 py-2 px-3">
