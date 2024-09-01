@@ -34,23 +34,23 @@ const Brands = () => {
             Show:
           </p>
           <button className="flex md:gap-1 xl:gap-2 items-center bg-transparent border border-black md:px-2 xl:px-4 py-2 rounded-md">
-            <img src={mass} className="object-contain" />
+            <img src={mass} className="md:hidden lg:block" />
             Templates
           </button>
           <button className="flex md:gap-1 xl:gap-2 items-center bg-transparent border border-black md:px-2 xl:px-4 py-2 rounded-md">
-            <img src={llam} className="object-contain" />
+            <img src={llam} className="md:hidden lg:block" />
             Email
-            <img src={tag} width={25} height={25} className="object-contain" />
+            <img src={tag} width={25} height={25} className="md:hidden lg:block" />
           </button>
           <button className="flex md:gap-1 xl:gap-2 items-center bg-transparent border border-black md:px-2 xl:px-4 py-2 rounded-md">
-            <img src={circle} className="object-contain" />
+            <img src={circle} className="object-contain md:hidden lg:block" />
             Landers
-            <img src={tag} width={25} height={25} className="object-contain" />
+            <img src={tag} width={25} height={25} className="md:hidden lg:block" />
           </button>
           <button className="flex md:gap-1 xl:gap-2 items-center bg-transparent border border-black md:px-2 xl:px-4 py-2 rounded-md text-white bg-violet-600">
-            <img src={whitec} className="object-contain" />
+            <img src={whitec} className="object-contain md:hidden lg:block" />
             Funnels
-            <img src={tag} width={25} height={25} className="object-contain" />
+            <img src={tag} width={25} height={25} className="md:hidden lg:block" />
           </button>
         </div>
         <div className="md:hidden">

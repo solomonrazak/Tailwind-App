@@ -18,7 +18,7 @@ const Sidebar = () => {
               <img src={compass} className="object-contain" />
               <p className="text-[14px] xl:text-[22px]">Inspiration</p>
             </div>
-            <div className="flex">
+            <div className="md:hidden lg:flex">
               <IoIosArrowBack />
               <IoIosArrowBack className="pr-[-20px]" />
             </div>
