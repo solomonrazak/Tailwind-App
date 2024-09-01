@@ -83,10 +83,10 @@ const Product = () => {
 
       <div className="bg-gray-400 w-full h-[0.6px]"></div>
       <div className="flex justify-end gap-2 mt-4 pr-4">
-        <button className="bg-transparent border border-black px-2 py-1 rounded-md text-[14px] font-medium">
+        <button className="bg-transparent border border-black px-2 py-1 rounded-md md:text-[10px] lg:text-[14px] font-medium">
           Request Template
         </button>
-        <button className="bg-transparent border border-black px-2 py-1 rounded-md text-[14px] font-medium">
+        <button className="bg-transparent border border-black px-2 py-1 rounded-md md:text-[10px] lg:text-[14px] font-medium">
           View Funnel
         </button>
         <button className="bg-transparent border border-black px-2 py-1 rounded-md font-medium">

@@ -12,7 +12,7 @@ const Brands = () => {
     <div className="py-5 px-5 md:px-2 xl:px-5 ">
       <div className="flex flex-col md:flex-row md:items-center md:justify-between">
         <div className="hidden md:flex items-center md:gap-2 xl:gap-3">
-          <button className="bg-transparent rounded-md px-2 py-2 border border-black">
+          <button className="bg-transparent rounded-md px-2 md:py-1 lg:py-2 border border-black">
             Back
           </button>
           <p className="font-medium text-violet-600 md:text-[15px] xl:text-[22px]">
@@ -24,30 +24,30 @@ const Brands = () => {
           <button className="bg-transparent rounded-md px-2 py-2 border border-black">
             Back
           </button>
-          <p className="font-medium text-violet-600 md:text-[15px] xl:text-[22px]">
+          <p className="font-medium text-violet-600">
             Brand name
           </p>
         </div>
 
-        <div className="hidden md:flex items-center md:gap-2 xl:gap-5 xl:ml-[-28px]">
-          <p className="md:pr-2 xl:pr-0 lg:text-[15px] xl:text-[22px] lg:pl-6 lg:pr-[-3px]">
+        <div className="hidden md:flex items-center md:gap-2 xl:gap-5 xl:ml-[-28px] md:pr-2">
+          <p className="md:pr-0 xl:pr-0 lg:text-[15px] xl:text-[22px] lg:pl-6 lg:pr-[-3px]">
             Show:
           </p>
-          <button className="flex md:gap-1 xl:gap-2 items-center bg-transparent border border-black md:px-2 xl:px-4 py-2 rounded-md">
+          <button className="flex md:gap-1 xl:gap-2 items-center bg-transparent border border-black md:px-2 xl:px-4 md:py-1 lg:py-2 rounded-md">
             <img src={mass} className="md:hidden lg:block" />
             Templates
           </button>
-          <button className="flex md:gap-1 xl:gap-2 items-center bg-transparent border border-black md:px-2 xl:px-4 py-2 rounded-md">
+          <button className="flex md:gap-1 xl:gap-2 items-center bg-transparent border border-black md:px-2 xl:px-4 md:py-1 lg:py-2 rounded-md">
             <img src={llam} className="md:hidden lg:block" />
             Email
             <img src={tag} width={25} height={25} className="md:hidden lg:block" />
           </button>
-          <button className="flex md:gap-1 xl:gap-2 items-center bg-transparent border border-black md:px-2 xl:px-4 py-2 rounded-md">
+          <button className="flex md:gap-1 xl:gap-2 items-center bg-transparent border border-black md:px-2 xl:px-4 md:py-1 lg:py-2 rounded-md">
             <img src={circle} className="object-contain md:hidden lg:block" />
             Landers
             <img src={tag} width={25} height={25} className="md:hidden lg:block" />
           </button>
-          <button className="flex md:gap-1 xl:gap-2 items-center bg-transparent border border-black md:px-2 xl:px-4 py-2 rounded-md text-white bg-violet-600">
+          <button className="flex md:gap-1 xl:gap-2 items-center bg-transparent border border-black md:px-2 xl:px-4 md:py-1 lg:py-2 rounded-md text-white bg-violet-600">
             <img src={whitec} className="object-contain md:hidden lg:block" />
             Funnels
             <img src={tag} width={25} height={25} className="md:hidden lg:block" />
@@ -58,10 +58,10 @@ const Brands = () => {
         </div>
 
         <div className="hidden md:flex gap-2">
-          <button className="bg-transparent rounded-md px-2 py-2 border border-black">
+          <button className="bg-transparent rounded-md px-2 md:py-1 lg:py-2 border border-black">
             Save
           </button>
-          <button className="bg-transparent rounded-md px-2 py-2 border border-black">
+          <button className="bg-transparent rounded-md px-2 md:py-1 lg:py-2 border border-black">
             Share
           </button>
         </div>

@@ -48,7 +48,7 @@ const Sidebar = () => {
                 src={tag}
                 width={30}
                 h={25}
-                className="object-contain mt-1"
+                className="object-contain mt-1 md:hidden lg:block"
               />
             </div>
             <div className="flex gap-7 items-center">
@@ -57,7 +57,7 @@ const Sidebar = () => {
                 src={tag}
                 width={30}
                 h={25}
-                className="object-contain mt-1"
+                className="object-contain mt-1 md:hidden lg:block"
               />
             </div>
             <div className="flex gap-6 items-center">
@@ -66,7 +66,7 @@ const Sidebar = () => {
                 src={tag}
                 width={30}
                 h={25}
-                className="object-contain mt-1"
+                className="object-contain mt-1 md:hidden lg:block"
               />
             </div>
           </div>
@@ -86,46 +86,46 @@ const Sidebar = () => {
               <p className="text-[15px] xl:text-[18px] font-medium">
                 All Saved
               </p>
-              <div className="flex items-center w-[100%] justify-between md:pr-4 xl:pr-7">
+              <div className="flex items-center w-[100%] justify-between md:pr-0 lg:pr-5">
                 <p className="text-[15px] xl:text-[18px] font-medium">
                   Board name
                 </p>
-                <BsThreeDots className="" />
+                <BsThreeDots className="md:hidden lg:block" />
               </div>
-              <div className="flex items-center w-[100%] justify-between  md:pr-4 xl:pr-7">
+              <div className="flex items-center w-[100%] justify-between  md:pr-0 lg:pr-5">
                 <p className="text-[15px] xl:text-[18px] font-medium">
                   Board name
                 </p>
-                <BsThreeDots className="" />
+                <BsThreeDots className="md:hidden lg:block" />
               </div>
-              <div className="flex items-center w-[100%] justify-between  md:pr-4 xl:pr-7">
+              <div className="flex items-center w-[100%] justify-between  md:pr-0 lg:pr-5">
                 <p className="text-[15px] xl:text-[18px] font-medium">
                   Board name
                 </p>
-                <BsThreeDots className="" />
+                <BsThreeDots className="md:hidden lg:block" />
               </div>
-              <div className="flex items-center w-[100%] justify-between  md:pr-4 xl:pr-7">
+              <div className="flex items-center w-[100%] justify-between  md:pr-0 lg:pr-5">
                 <p className="text-[15px] xl:text-[18px] font-medium">
                   Board name
                 </p>
-                <BsThreeDots className="" />
+                <BsThreeDots className="md:hidden lg:block" />
               </div>
-              <div className="flex items-center w-[100%] justify-between  md:pr-4 xl:pr-7">
+              <div className="flex items-center w-[100%] justify-between  md:pr-0 lg:pr-5">
                 <p className="text-[15px] xl:text-[18px] font-medium">
                   Board name
                 </p>
-                <BsThreeDots className="" />
+                <BsThreeDots className="md:hidden lg:block" />
               </div>
             </div>
           </div>
-          <p className="text-[15px] xl:text-[18px] font-medium pl-4 pt-3">
+          <p className="text-[15px] xl:text-[18px] font-medium lg:pl-4 pt-3">
             View all boards
           </p>
         </div>
         <div className="h-[0.6px] bg-gray-400 w-[80%] my-6 ml-4"></div>
 
         <div className="pl-4">
-          <p className="flex flex-col gap-2 font-medium md:text-[17px] xl:text-[23px]">
+          <p className="flex flex-col gap-2 font-medium md:text-[15px] xl:text-[23px]">
             <span>Settings</span>
             <span>Help & Feedback</span>
             <span>Join the CreativeOS Stack</span>
@@ -134,7 +134,7 @@ const Sidebar = () => {
         <div className="h-[0.6px] bg-gray-400 w-[80%] my-6 ml-4"></div>
         <div className="flex items-center gap-3 pl-4">
           <div className="bg-violet-500 md:w-10 md:h-10 xl:w-12 xl:h-12 rounded-full"></div>
-          <p className="font-medium md:text-[17px] xl:text-[23px]">
+          <p className="font-medium md:text-[14px] lg:text-[23px]">
             My Account
           </p>
         </div>
