@@ -134,7 +134,7 @@ const Sidebar = () => {
         <div className="h-[0.6px] bg-gray-400 w-[80%] my-6 ml-4"></div>
         <div className="flex items-center gap-3 pl-4">
           <div className="bg-violet-500 md:w-10 md:h-10 xl:w-12 xl:h-12 rounded-full"></div>
-          <p className="font-medium md:text-[15px] xl:text-[23px]">
+          <p className="font-medium md:text-[16px] xl:text-[23px]">
             My Account
           </p>
         </div>
