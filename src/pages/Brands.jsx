@@ -11,7 +11,7 @@ const Brands = () => {
   return (
     <div className="py-5 px-5 md:px-2 xl:px-5 ">
       <div className="flex flex-col md:flex-row md:items-center md:justify-between">
-        <div className="hidden md:flex items-center md:gap-1 xl:gap-3">
+        <div className="hidden md:flex items-center md:gap-2 xl:gap-3">
           <button className="bg-transparent rounded-md px-2 py-2 border border-black">
             Back
           </button>
@@ -29,7 +29,7 @@ const Brands = () => {
           </p>
         </div>
 
-        <div className="hidden md:flex items-center md:gap-1 xl:gap-5 xl:ml-[-28px]">
+        <div className="hidden md:flex items-center md:gap-2 xl:gap-5 xl:ml-[-28px]">
           <p className="md:pr-2 xl:pr-0 lg:text-[15px] xl:text-[22px] lg:pl-6 lg:pr-[-3px]">
             Show:
           </p>
